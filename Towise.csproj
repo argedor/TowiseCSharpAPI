@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>towise</PackageId>
+    <Authors>Harun Keleşoğlu</Authors>
+    <Copyright>Argedor</Copyright>
+    <PackageIconUrl>https://towise.io//img/logo_grey_v2.svg</PackageIconUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/argedor/TowiseCSharpAPI/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Owners>Argedor</Owners>
+    <PackageProjectUrl>https://github.com/argedor/TowiseCSharpAPI</PackageProjectUrl>
+    <Title>towise</Title>
+    <Description>Towise assists you to detect human faces and bodies with using the latest and reliable technology.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
