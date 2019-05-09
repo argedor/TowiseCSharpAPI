@@ -1,10 +1,9 @@
-﻿using System;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using System.Web;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace Towise
+namespace TowiseAPI
 {
     public class Towise
     {
@@ -129,6 +128,6 @@ namespace Towise
             return response;
 
         }
-
     }
+
 }

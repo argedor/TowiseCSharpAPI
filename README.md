@@ -12,7 +12,7 @@ nuget install towise
 ```
 To import your project
 ```csharp
-using Towise;
+using TowiseAPI;
 ```
 ### Using Towise
 You must enter appKey and appId

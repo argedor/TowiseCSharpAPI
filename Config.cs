@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace Towise
+﻿
+namespace TowiseAPI
 {
     public class Config
     {
