@@ -19,7 +19,7 @@ You must enter appKey and appId
 
 For Example:
 ```csharp
-using Towise;
+using TowiseAPI;
 
 namespace towise_example
 {
